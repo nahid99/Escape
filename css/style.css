@@ -1,0 +1,483 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/*navbar start*/
+.cutom_nav{
+	background-image: url(../image/bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.wrapper{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header{
+	margin: 40px 0;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 15%;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	overflow: hidden;
+	float: right;
+	width: 50%;
+}
+.menu ul{
+	overflow: hidden;
+    float: left;
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+}
+.menu ul li a{
+	color: #fafafa;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: .3s;
+    display: block;
+    border-radius: 20px;
+}
+.menu ul li a:hover {
+	color: #fafafa;
+	background-color: rgba(34,138,230,.3);
+}
+/*text start*/
+.text{
+	margin: 100px 0;
+	overflow: hidden;
+	text-align: center;
+}
+.text p{
+	font-family: '../fonts/Brandon_reg.ttf';
+    font-size: 25px;
+    color: #fafafa;
+    word-spacing: 3px;
+	margin-bottom: 20px;
+}
+.text h1{
+	color: #fafafa;
+    font-size: 65px;
+    word-spacing: 3px;
+}
+.text button{
+    margin-top: 80px;
+    padding: 15px 60px;
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    border: 2px solid;
+    color: #fafafa;
+    transition: .5s;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.text button:hover{
+	color:#fafafa;
+	background-color: #223E6D;
+}
+/*text end*/
+/*navbar end*/
+/*branding start*/
+.brand{
+	width: 65%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.hole{
+	overflow: hidden;
+    margin: 50px 0;
+}
+.web{
+	width: 55%;
+    float: left;
+    overflow: hidden;
+}
+.web h1{
+	margin: 40px 0;
+	font-weight: 300;
+    font-size: 50px;
+}
+.web h1 span{
+	font-weight: 700;
+}
+.web p{
+	font-size: 15px;
+    word-spacing: 5px;
+	margin: 0 0 30px 0;
+}
+.icon{
+    width: 30%;
+    float: left;
+    margin: 0 50px;
+	margin-top: 50px;
+}
+.icon img{
+	width: 100%;
+}
+.extra{
+	background-color: #FAFAFA;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.hole2{
+    width: 65%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.web2{
+	margin: 0 55px;
+	width: 55%;
+    float: left;
+    overflow: hidden;
+
+}
+.icon2{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+	margin-top: 50px;
+}
+.icon2 img{
+	width: 100%;
+
+}
+.web2 h1{
+	margin: 40px 0;
+	font-weight: 300;
+    font-size: 50px;
+}
+.web2 h1 span{
+	font-weight: 700;
+}
+.web2 p{
+	font-size: 15px;
+    word-spacing: 5px;
+	margin: 0 0 30px 0;
+}
+/*branding end*/
+/*.section start*/
+.services{
+	margin-bottom: 40px;
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.service1{
+	margin: 20px 20px;
+	width: 45%;
+	float: left;
+	overflow: hidden;
+}
+.brand_img{
+	float: left;
+    width: 12%;
+    overflow: hidden;
+    /*border: 1px solid black;*/
+    min-height: 50px;
+}
+.brand_img img{
+	width: 100%;
+}
+.brand_content{
+	padding: 0 5px;
+	float: left;
+    width: 80%;
+    overflow: hidden;
+    /*border: 1px solid black;*/
+    min-height: 50px;
+}
+.brand_content h2{
+    font-size: 20px;
+
+}
+.brand_content p{
+	font-size: 15px;
+    margin: 5px 0;
+}
+/*.section end*/
+/*client start*/
+.client_bg{
+	background-color: #FAFAFA;
+	margin: 50px 0;
+}
+.client{
+	width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title{
+	width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.title h2{
+	font-weight: 300;
+    font-size: 50px;
+}
+.title h2 span{
+    font-weight: 900;
+
+}
+.title p{
+	font-size: 18px;
+    font-weight: 300;
+}
+.conversation{
+	overflow: hidden;
+}
+.black{
+	width: 25%;
+	margin-right: 50px;
+	float: left;
+	overflow: hidden;
+}
+.black img{
+	width: 100%;
+}
+.talk{
+	background: transparent;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px 20px;
+	margin-top: 50px;
+}
+.talk p{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.talk span {
+	padding: 0 60px;
+    font-size: 16px;
+    color: #2D91B2;
+    cursor: pointer;
+}
+.conversation2{
+	overflow: hidden;
+    margin-bottom: 50px;
+}
+.talk2{
+	margin-top: 50px;
+	margin-right: 50px;
+	width: 50%;
+    float: left;
+    overflow: hidden;
+    background: transparent;
+    padding: 20px 20px;
+    background-color: #ffffff;
+}
+.talk2 p{
+	font-size: 20px;
+    padding: 10px 20px;
+}
+.talk2 span{
+	padding: 0 60px;
+    font-size: 16px;
+    color: #2D91B2;
+    cursor: pointer;
+}
+.black2{}
+.black2 img{}
+/*client end*/
+/*ads start*/
+.custom_ads{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.ads{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.ads img{
+	margin: 0 10px;
+}
+/*ads end*/
+/*awesome team start*/
+.team{
+	background-color: #000000;
+}
+.title2{
+	text-align: center;
+	width: 40%;
+	padding: 50px 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.title2 h2{
+	color: #ffffff;
+    font-size: 50px;
+    font-weight: 300;
+}
+.title2 span{
+	font-weight: 700;
+}
+.title2 p{
+	font-size: 18px;
+	color: #8F8F8F;
+}
+.pictures{
+	width: 65%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.first_p{
+    margin: 0 30px;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.bg_img{
+
+}
+.bg_img img{
+	width: 100%;
+}
+.links{
+	text-align: center;
+}
+.links h5{
+	padding: 10px 0 0 0;
+    color: #ffffff;
+}
+.links p{
+	color: #ffffff;
+    font-size: 15px;
+}
+.link_type{
+	overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+}
+.link_type i{
+	color: #ffffff;
+    border: 5px solid;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.link_type i:hover{
+	color: #223E6D;
+}
+.para{
+    padding: 50px 0;
+    width: 75%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.para p{
+	color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+/*awesome team end*/
+/*footer start*/
+footer{
+	background-color: #7690C5;
+}
+.footer_div{
+	width: 70%;
+	padding: 50px 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.hello{
+    margin-right: 50px;
+    float: left;
+    width: 45%;
+    overflow: hidden;
+}
+.footer_title{
+	overflow: hidden;
+}
+.footer_title h1{
+	font-weight: 300;
+    color: #ffffff;
+    font-size: 60px;
+}
+.footer_title h1 span{
+	font-weight: 700;
+}
+.footer_title p{
+	color: #ffffff;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.footer_links{
+    width: 45%;
+    padding: 20px 0;
+    overflow: hidden;
+    float: left;
+}
+.footer_img{
+	width: 11%;
+    float: left;
+    cursor: pointer;
+}
+.footer_img i{
+	float: left;
+    color: #ffffff;
+}
+.footer_content{
+    float: left;
+    padding-left: 15px;
+}
+.footer_content p{
+	font-size: 15px;
+	color: #ffffff;
+}
+.text_box{
+	width: 45%;
+	float: left;
+	overflow: hidden;
+}
+.text_box label{}
+.text_box input{
+    margin: 15px 0;
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+}
+.extra_input{}
+.extra_input input{
+	margin: 15px 0;
+    width: 95%;
+    padding: 10px 10px 120px;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+}
+.footer_text{
+	width: 40%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer_text p{
+	color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 0;
+}
+/*footer start*/
